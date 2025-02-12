@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandWords
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\ \r\n\ This\ class\ holds\ an\ enumeration\ table\ of\ all\ command\ words\ known\ to\ the\ game.\r\n\ It\ is\ used\ to\ recognise\ commands\ as\ they\ are\ typed\ in.\r\n\r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\ +\ D.Bureau\r\n\ @version\ 2008.03.30\ +\ 2019.09.25\r\n
+comment1.params=
+comment1.target=CommandWords()
+comment1.text=\r\n\ Constructeur\ -\ initialise\ les\ commandes\ valides.\r\n\ Ce\ constructeur\ cr\u00E9e\ et\ initialise\ le\ tableau\ contenant\ les\ mots\ de\ commande\ valides.\r\n
+comment2.params=pString
+comment2.target=boolean\ isCommand(java.lang.String)
+comment2.text=\r\n\ V\u00E9rifie\ si\ une\ cha\u00EEne\ donn\u00E9e\ est\ un\ mot\ de\ commande\ valide.\r\n\r\n\ @param\ pString\ La\ cha\u00EEne\ de\ caract\u00E8res\ \u00E0\ v\u00E9rifier.\r\n\ @return\ true\ si\ la\ cha\u00EEne\ est\ une\ commande\ valide,\ false\ sinon.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCommandList()
+comment3.text=\r\n\ Retourne\ toutes\ les\ commandes\ valides\ disponibles\ dans\ le\ jeu.\r\n\ \r\n\ Cette\ m\u00E9thode\ permet\ au\ joueur\ de\ conna\u00EEtre\ toutes\ les\ commandes\ qu'il\ peut\ utiliser.\r\n\r\n\ @return\ Une\ cha\u00EEne\ contenant\ toutes\ les\ commandes\ valides\ s\u00E9par\u00E9es\ par\ un\ espace.\r\n
+numComments=4

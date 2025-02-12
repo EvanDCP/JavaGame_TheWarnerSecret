@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Game
+comment0.text=\r\n\ Classe\ Game\ -\ le\ moteur\ du\ jeu\ d'aventure\ Zuul.\r\n\ Gere\ la\ creation\ des\ pieces,\ le\ traitement\ des\ commandes\ et\ la\ progression\ du\ jeu.\r\n\ \r\n\r\n\ @author\ Evan\ Da\ Costa\ Pina\r\n\ @version\ 16/12/2024\r\n
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Creez\ le\ jeu\ et\ initialisez\ sa\ carte\ interne.\ Creez\ l'interface\ et\ creez\ un\ lien\ vers\ celle-ci.\r\n
+numComments=2

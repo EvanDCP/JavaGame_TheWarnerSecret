@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RoomRandomizer
+comment0.text=\r\n\ La\ classe\ {@code\ RoomRandomizer}\ est\ responsable\ de\ s\u00E9lectionner\ al\u00E9atoirement\r\n\ une\ pi\u00E8ce\ parmi\ une\ liste\ de\ pi\u00E8ces\ disponibles.\r\n\ \r\n\ Cette\ classe\ est\ utilis\u00E9e\ pour\ des\ fonctionnalit\u00E9s\ comme\ les\ t\u00E9l\u00E9porteurs,\r\n\ o\u00F9\ une\ pi\u00E8ce\ al\u00E9atoire\ doit\ \u00EAtre\ choisie\ sans\ d\u00E9pendre\ d'une\ direction\ sp\u00E9cifique.\r\n
+comment1.params=pRooms
+comment1.target=RoomRandomizer(java.util.List)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ {@code\ RoomRandomizer}.\r\n\ Initialise\ le\ g\u00E9n\u00E9rateur\ avec\ une\ liste\ de\ pi\u00E8ces\ parmi\ lesquelles\ une\ s\u00E9lection\ al\u00E9atoire\ peut\ \u00EAtre\ faite.\r\n\ \r\n\ @param\ pRooms\ La\ liste\ des\ pi\u00E8ces\ disponibles.\r\n
+comment2.params=
+comment2.target=Room\ getRandomRoom()
+comment2.text=\r\n\ Retourne\ une\ pi\u00E8ce\ al\u00E9atoire\ parmi\ la\ liste\ des\ pi\u00E8ces\ disponibles.\r\n\ \r\n\ @return\ Une\ pi\u00E8ce\ choisie\ al\u00E9atoirement\ dans\ {@code\ aRooms}.\r\n
+numComments=3

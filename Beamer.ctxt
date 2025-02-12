@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\r\n\ La\ classe\ {@code\ Beamer}\ repr\u00E9sente\ un\ t\u00E9l\u00E9porteur\ utilisable\ dans\ le\ jeu.\r\n\ \r\n\ Un\ t\u00E9l\u00E9porteur\ peut\ \u00EAtre\ charg\u00E9\ avec\ une\ pi\u00E8ce\ sp\u00E9cifique,\ puis\ utilis\u00E9\ pour\r\n\ t\u00E9l\u00E9porter\ le\ joueur\ directement\ vers\ cette\ pi\u00E8ce.\ Si\ le\ t\u00E9l\u00E9porteur\ n'est\ pas\r\n\ charg\u00E9,\ il\ ne\ peut\ pas\ \u00EAtre\ utilis\u00E9.\r\n\ \r\n\ Cette\ classe\ h\u00E9rite\ de\ {@code\ Item}\ et\ peut\ donc\ \u00EAtre\ manipul\u00E9e\ comme\ un\ objet\r\n\ de\ l'inventaire\ du\ joueur.\r\n
+comment1.params=pName\ pDesc\ pWeight
+comment1.target=Beamer(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructeur\ du\ Beamer.\r\n\ \r\n\ @param\ pName\ Le\ nom\ du\ t\u00E9l\u00E9porteur.\r\n\ @param\ pDesc\ La\ description\ du\ t\u00E9l\u00E9porteur.\r\n\ @param\ pWeight\ Le\ poids\ du\ t\u00E9l\u00E9porteur.\r\n
+comment2.params=pRoom
+comment2.target=void\ charge(Room)
+comment2.text=\r\n\ Charge\ le\ t\u00E9l\u00E9porteur\ dans\ la\ pi\u00E8ce\ donn\u00E9e.\r\n\ \r\n\ @param\ pRoom\ La\ pi\u00E8ce\ dans\ laquelle\ charger\ le\ t\u00E9l\u00E9porteur.\r\n
+comment3.params=pCurrentRoom
+comment3.target=Room\ fire(Room)
+comment3.text=\r\n\ Tire\ le\ t\u00E9l\u00E9porteur\ et\ t\u00E9l\u00E9porte\ le\ joueur\ vers\ la\ pi\u00E8ce\ o\u00F9\ il\ a\ \u00E9t\u00E9\ charg\u00E9.\r\n\ Si\ le\ t\u00E9l\u00E9porteur\ n'a\ pas\ \u00E9t\u00E9\ charg\u00E9,\ il\ ne\ peut\ pas\ \u00EAtre\ utilis\u00E9.\r\n\ \r\n\ @param\ pCurrentRoom\ La\ pi\u00E8ce\ actuelle\ du\ joueur.\r\n\ @return\ La\ nouvelle\ pi\u00E8ce\ apr\u00E8s\ t\u00E9l\u00E9portation,\ ou\ la\ pi\u00E8ce\ actuelle\ si\ non\ charg\u00E9.\r\n
+comment4.params=
+comment4.target=boolean\ isCharged()
+comment4.text=\r\n\ V\u00E9rifie\ si\ le\ t\u00E9l\u00E9porteur\ a\ \u00E9t\u00E9\ charg\u00E9.\r\n\ \r\n\ @return\ true\ si\ le\ t\u00E9l\u00E9porteur\ a\ \u00E9t\u00E9\ charg\u00E9,\ false\ sinon.\r\n
+numComments=5

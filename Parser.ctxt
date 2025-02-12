@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\r\n\ This\ class\ is\ part\ of\ "World\ of\ Zuul".\ "World\ of\ Zuul"\ is\ a\ simple,\ \r\n\ text\ based\ adventure\ game.\r\n\r\n\ This\ parser\ takes\ user\ input\ and\ tries\ to\ interpret\ it\ as\ a\ "Zuul"\r\n\ command.\ Every\ time\ it\ is\ called\ it\ takes\ a\ line\ as\ a\ String\ and\r\n\ tries\ to\ interpret\ the\ line\ as\ a\ two\ word\ command.\ It\ returns\ the\ command\r\n\ as\ an\ object\ of\ class\ Command.\r\n\r\n\ The\ parser\ has\ a\ set\ of\ known\ command\ words.\ It\ checks\ user\ input\ against\r\n\ the\ known\ commands,\ and\ if\ the\ input\ is\ not\ one\ of\ the\ known\ commands,\ it\r\n\ returns\ a\ command\ object\ that\ is\ marked\ as\ an\ unknown\ command.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2.0\ (Jan\ 2003)\ DB\ edited\ (2019)\r\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\r\n\ Cr\u00E9e\ un\ nouveau\ Parser.\r\n\ Ce\ constructeur\ initialise\ la\ collection\ de\ mots\ de\ commande\ valides.\r\n
+comment2.params=pInputLine
+comment2.target=Command\ getCommand(java.lang.String)
+comment2.text=\r\n\ R\u00E9cup\u00E8re\ une\ nouvelle\ commande\ \u00E0\ partir\ de\ la\ ligne\ d'entr\u00E9e\ fournie\ par\ l'utilisateur.\r\n\ La\ ligne\ est\ analys\u00E9e\ pour\ extraire\ les\ deux\ premiers\ mots\ qui\ sont\ consid\u00E9r\u00E9s\ comme\r\n\ une\ commande\ et\ un\ argument.\r\n\ \r\n\ @param\ pInputLine\ La\ ligne\ d'entr\u00E9e\ de\ l'utilisateur\ \u00E0\ analyser.\ Elle\ peut\ contenir\ une\ ou\ deux\ parties\ \:\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ un\ mot\ de\ commande\ et\ un\ argument.\r\n\ @return\ Un\ objet\ Command\ repr\u00E9sentant\ la\ commande.\ Si\ le\ mot\ de\ commande\ est\ reconnu,\ \r\n\ \ \ \ \ \ \ \ \ un\ objet\ Command\ valide\ est\ retourn\u00E9.\ Sinon,\ une\ commande\ "inconnue"\ est\ retourn\u00E9e.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCommandString()
+comment3.text=\r\n\ Retourne\ une\ cha\u00EEne\ de\ caract\u00E8res\ contenant\ tous\ les\ mots\ de\ commande\ valides.\r\n\ \r\n\ @return\ Une\ cha\u00EEne\ de\ caract\u00E8res\ repr\u00E9sentant\ tous\ les\ mots\ de\ commande\ valides\ s\u00E9par\u00E9s\ par\ des\ espaces.\r\n
+numComments=4

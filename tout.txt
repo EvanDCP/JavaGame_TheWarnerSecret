@@ -1,0 +1,42 @@
+aller nord
+retour
+prendre lampe
+aller ouest
+observer
+aller nord
+aller est
+prendre cookie
+inventaire
+manger cookie
+inventaire
+aller est
+aller nord
+aller sud
+aller sud
+prendre montre
+aide
+aller bas
+prendre gemme
+inventaire
+aller ouest
+prendre journalintime
+aller haut
+charger gemme
+aller haut
+aller nord
+prendre doudou
+retour
+aller ouest
+aller est
+aller est
+retour
+aller haut
+lacher lampe
+prendre appareilphoto
+aller ouest
+tirer gemme
+aller nord
+aller est
+aller sud
+aller bas
+

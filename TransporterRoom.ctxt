@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ La\ classe\ {@code\ TransporterRoom}\ repr\u00E9sente\ une\ pi\u00E8ce\ sp\u00E9ciale\ dans\ le\ jeu.\r\n\ Contrairement\ aux\ autres\ pi\u00E8ces,\ les\ sorties\ de\ cette\ pi\u00E8ce\ ne\ sont\ pas\ fixes.\r\n\ Chaque\ fois\ qu'un\ joueur\ tente\ de\ sortir\ de\ cette\ pi\u00E8ce,\ il\ est\ t\u00E9l\u00E9port\u00E9\ vers\ une\ pi\u00E8ce\ al\u00E9atoire.\r\n\ \r\n\ Cette\ fonctionnalit\u00E9\ est\ rendue\ possible\ gr\u00E2ce\ \u00E0\ un\ objet\ {@code\ RoomRandomizer}\ qui\ g\u00E8re\r\n\ la\ s\u00E9lection\ al\u00E9atoire\ des\ pi\u00E8ces.\r\n\ \r\n\ La\ classe\ h\u00E9rite\ de\ {@code\ Room}.\r\n
+comment1.params=pDescription\ pImageName\ pRoomRandomizer
+comment1.target=TransporterRoom(java.lang.String,\ java.lang.String,\ RoomRandomizer)
+comment1.text=\r\n\ Constructeur\ de\ la\ classe\ {@code\ TransporterRoom}.\r\n\ Initialise\ une\ pi\u00E8ce\ avec\ une\ description,\ un\ nom\ d'image,\ et\ un\ g\u00E9n\u00E9rateur\ de\ pi\u00E8ces\ al\u00E9atoires.\r\n\ \r\n\ @param\ pDescription\ \ \ La\ description\ de\ la\ pi\u00E8ce.\r\n\ @param\ pImageName\ \ \ \ \ Le\ nom\ de\ l'image\ associ\u00E9e\ \u00E0\ la\ pi\u00E8ce.\r\n\ @param\ pRoomRandomizer\ Un\ objet\ {@code\ RoomRandomizer}\ utilis\u00E9\ pour\ s\u00E9lectionner\ al\u00E9atoirement\ une\ pi\u00E8ce.\r\n
+comment2.params=direction
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ Retourne\ une\ pi\u00E8ce\ al\u00E9atoire\ au\ lieu\ d'une\ sortie\ bas\u00E9e\ sur\ une\ direction\ sp\u00E9cifique.\r\n\ \r\n\ @param\ direction\ La\ direction\ sp\u00E9cifi\u00E9e\ (ignor\u00E9e\ dans\ cette\ impl\u00E9mentation).\r\n\ @return\ Une\ pi\u00E8ce\ al\u00E9atoire\ s\u00E9lectionn\u00E9e\ par\ le\ {@code\ RoomRandomizer}.\r\n
+numComments=3

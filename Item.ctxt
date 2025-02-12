@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Represente\ un\ objet\ dans\ le\ jeu\ avec\ une\ description\ et\ un\ poids.\r\n\ Cette\ classe\ permet\ de\ decrire\ des\ objets\ que\ le\ joueur\ peut\ manipuler.\r\n\r\n\ @author\ Evan\ Da\ Costa\ Pina\r\n\ @version\ 04/12/2024\r\n
+comment1.params=pName\ pDesc\ pWeight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructeur\ d'un\ objet\ de\ la\ classe\ Item.\r\n\ Permet\ d'initialiser\ la\ description\ et\ le\ poids\ de\ l'objet.\r\n\r\n\ @param\ pDesc\ La\ description\ de\ l'objet\ \r\n\ @param\ pWeight\ Le\ poids\ de\ l'objet\ en\ kilogrammes.\r\n\ @param\ pName\ Le\ nom\ de\ l'objet.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemDescription()
+comment2.text=\r\n\ Retourne\ la\ description\ de\ l'objet.\r\n\ La\ description\ peut\ \u00EAtre,\ par\ exemple,\ un\ nom\ ou\ un\ type\ de\ l'objet.\r\n\r\n\ @return\ La\ description\ de\ l'objet\ sous\ forme\ de\ cha\u00EEne\ de\ caracteres.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getItemName()
+comment3.text=\r\n\ Permet\ d'obtenir\ le\ nom\ d'un\ Item\r\n\ \r\n\ @return\ le\ nom\ de\ l'Item\r\n
+comment4.params=
+comment4.target=double\ getItemWeight()
+comment4.text=\r\n\ Retourne\ le\ poids\ de\ l'objet.\r\n\ Le\ poids\ est\ exprime\ en\ kilogrammes.\r\n\r\n\ @return\ Le\ poids\ de\ l'objet\ en\ kilogrammes.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Retourne\ une\ representation\ sous\ forme\ de\ cha\u00EEne\ de\ caracteres\ de\ l'objet.\r\n\ La\ cha\u00EEne\ inclut\ la\ description\ de\ l'objet\ et\ son\ poids.\r\n\r\n\ @return\ Une\ cha\u00EEne\ representant\ l'objet\ avec\ sa\ description\ et\ son\ poids.\r\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ Classe\ Command\ -\ une\ commande\ du\ jeu\ "Le\ secret\ des\ Warner".\r\n\ Une\ commande\ est\ constituee\ d'un\ mot\ d'ordre\ (command\ word)\ et\ eventuellement\r\n\ d'un\ second\ mot.\r\n\ \r\n\ @author\ Evan\ Da\ Costa\ Pina\r\n\ @version\ 04/12/2024\r\n
+comment1.params=pW1\ pW2
+comment1.target=Command(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructeur\ pour\ les\ objets\ de\ la\ classe\ Command.\r\n\ \r\n\ @param\ pW1\ Le\ premier\ mot\ (mot\ d'ordre)\ de\ la\ commande.\r\n\ @param\ pW2\ Le\ second\ mot\ de\ la\ commande\ (peut\ \u00EAtre\ null).\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\r\n\ Retourne\ le\ mot\ d'ordre\ de\ la\ commande.\r\n\ \r\n\ @return\ Le\ mot\ d'ordre\ de\ la\ commande\ sous\ forme\ de\ cha\u00EEne\ de\ caracteres.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\r\n\ Retourne\ le\ second\ mot\ de\ la\ commande.\r\n\ \r\n\ @return\ Le\ second\ mot\ de\ la\ commande,\ ou\ null\ si\ la\ commande\ n'a\ pas\ de\ second\ mot.\r\n
+comment4.params=
+comment4.target=boolean\ hasSecondWord()
+comment4.text=\r\n\ Verifie\ si\ la\ commande\ a\ un\ second\ mot.\r\n\ \r\n\ @return\ true\ si\ la\ commande\ a\ un\ second\ mot,\ false\ sinon\ (si\ le\ second\ mot\ est\ null).\r\n
+comment5.params=
+comment5.target=boolean\ isUnknown()
+comment5.text=\r\n\ Verifie\ si\ la\ commande\ est\ inconnue\ (mot\ d'ordre\ nul).\r\n\ \r\n\ @return\ true\ si\ le\ mot\ d'ordre\ est\ null,\ false\ sinon\ (si\ le\ mot\ d'ordre\ est\ defini).\r\n
+numComments=6
